@@ -6,7 +6,7 @@
 * **Source Data**: Use the **Raw dataset** (1,500 original MRI images)
 * **Image Size**: Standardized to **512×512 pixels** (as per dataset).
 * **Batch Size**:
-   * **Initial recommendation**: **16** (optimized for Nvidia GTX 4060 VRAM constraints).
+   * **Initial recommendation**: **16**.
    * Increase to **32** if GPU memory permits.
 * **Dataset Splitting**:
    * Train: **70%** (1,050 images + on-the-fly augmentation)
